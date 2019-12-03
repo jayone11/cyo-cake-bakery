@@ -29,6 +29,16 @@ body {
     /* display: none; */
 }
 
+.content-wrapper2 {
+    padding: .25rem;
+    /* background-color: lightgray; */
+    border-radius: 10%;
+    margin: 2.5px auto;
+    /* opacity: .65; */
+    text-align: center;
+    /* display: none; */
+}
+
 .vertical-stripe {
   background: repeating-linear-gradient(90deg, 
     rgb(244, 212, 227), rgb(251, 223, 236) 13px, 
