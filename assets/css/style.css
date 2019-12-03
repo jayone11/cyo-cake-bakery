@@ -1,15 +1,32 @@
-html {
-    background-color: rgb(244, 212, 227);
-}
 body {
     margin: 0;
+    padding: 0;
+    background-image: url("/assets/images/cupcake-bg-pink.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* text-align: center; */
+}
+
+.container {
     padding: 0;
 }
 
 .box {
     height: 100%;
     width: 100%;
-    float: left;
+    margin: 0;
+    /* position: relative; */
+    /* float: left; */
+}
+
+.content-wrapper {
+    padding: .25rem;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin: 0 auto;
+    opacity: .65;
+    text-align: center;
+
 }
 
 .vertical-stripe {
@@ -18,21 +35,173 @@ body {
     rgb(243, 175, 210) 0px, rgb(243, 175, 210) 25px);
 }
 
-iframe {
-    border: none;
+.menu-front-pdf {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 400px;
+    /* height: 800px; */
+    text-align: center;
+    border-top: solid 10px lightpink;
+    border-bottom: solid 10px lightpink;
+    overflow: hidden;
 }
 
-.menu-front-pdf {
-    text-align: center;
-    border: none;
+.main-logo {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    border: solid rgb(49, 48, 48) 5px;
+    /* margin: 15px; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+.home-link {
+    margin: 0 auto;
 }
 
 .menu-back-pdf {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 800px;
     text-align: center;
+    border: none;
+    border-bottom: solid 10px lightpink;
 }
 
-.menu-frame {
+/* .menu-frame {
     width: 420px;
     height: 880px;
     margin: 0 auto;
+} */
+
+.as-seen-on {
+    width: 180px;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 24px;
+    top: 50px;
 }
+
+.cupcake-img {
+    max-width: 200px;
+    max-height: 155px;
+    float: left;
+    position: relative;
+    top: 125px;
+    left: -155px;
+}
+
+.kisha-img-01 {
+    max-width: 350px;
+    max-height: 350px;
+    /* min-width: 250px; */
+    /* min-height: 45%; */
+    /* top: 10px; */
+    /* left: 30px; */
+    float: right;
+    position: relative;
+}
+
+
+
+/* @media (max-width: 370px) {
+    .container {
+        padding: 0!important;
+    }
+
+    .cupcake-img {
+        max-width: 200px;
+        max-height: 150px;
+        float: left;
+        position: relative;
+        top: 100px;
+        left: 25px; 
+    }
+
+    .kisha-img-01 {
+        float: right;
+        position: relative;
+        max-width: 350px;
+        max-height: 350px;
+        top: 100px;
+        left: 0px;
+        
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 0!important;
+    }
+
+    .cupcake-img {
+        max-width: 200px;
+        max-height: 150px;
+        float: left;
+        position: relative;
+        top: 400px;
+        left: 25px; 
+    }
+
+    .kisha-img-01 {
+        max-width: 350px;
+        max-height: 350px;
+        top: 300px;
+        left: 0px;
+        float: right;
+        position: relative;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        padding: 0!important;
+    }
+
+    .cupcake-img {
+        max-width: 200px;
+        max-height: 150px;
+        float: left;
+        position: relative;
+        top: 400px;
+        left: 25px; 
+    }
+
+    .kisha-img-01 {
+        max-width: 350px;
+        max-height: 350px;
+        top: 300px;
+        left: 0px;
+        float: right;
+        position: relative;
+    }
+} */
