@@ -23,10 +23,10 @@ body {
     padding: .25rem;
     background-color: lightgray;
     border-radius: 10%;
-    margin: 0 auto;
+    margin: 2.5px auto;
     opacity: .65;
     text-align: center;
-
+    /* display: none; */
 }
 
 .vertical-stripe {
@@ -40,10 +40,10 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 400px;
-    /* height: 800px; */
+    height: 990px;
     text-align: center;
-    border-top: solid 10px lightpink;
-    border-bottom: solid 10px lightpink;
+    border-top: solid 20px lightpink;
+    border-bottom: solid 20px lightpink;
     overflow: hidden;
 }
 
@@ -89,7 +89,7 @@ p {
     display: flex;
     margin: 0 auto;
     max-width: 400px;
-    height: 800px;
+    height: auto;
     text-align: center;
     border: none;
     border-bottom: solid 10px lightpink;
@@ -107,8 +107,8 @@ p {
     position: relative;
     margin: 0;
     padding: 0;
-    left: 24px;
-    top: 50px;
+    left: 25px;
+    top: 15px;
 }
 
 .cupcake-img {
@@ -116,7 +116,7 @@ p {
     max-height: 155px;
     float: left;
     position: relative;
-    top: 125px;
+    top: 80px;
     left: -155px;
 }
 
@@ -125,7 +125,7 @@ p {
     max-height: 350px;
     /* min-width: 250px; */
     /* min-height: 45%; */
-    /* top: 10px; */
+    top: -100px;
     /* left: 30px; */
     float: right;
     position: relative;
