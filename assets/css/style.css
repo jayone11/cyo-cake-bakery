@@ -77,6 +77,8 @@ h1 {
     font-size: 3rem;
     margin: 0 auto;
     padding: 5px 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
 }
 
 h2 {
@@ -143,31 +145,31 @@ p {
 
 
 
-/* @media (max-width: 370px) {
+@media (width: 401px) {
     .container {
         padding: 0!important;
     }
 
     .cupcake-img {
-        max-width: 200px;
+        /* max-width: 200px;
         max-height: 150px;
         float: left;
         position: relative;
         top: 100px;
-        left: 25px; 
+        left: 25px;  */
     }
 
     .kisha-img-01 {
-        float: right;
+        /* float: right;
         position: relative;
         max-width: 350px;
         max-height: 350px;
         top: 100px;
-        left: 0px;
+        left: 0px; */
         
     }
 }
-
+/*
 @media (max-width: 550px) {
     .container {
         padding: 0!important;
